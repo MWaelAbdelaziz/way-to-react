@@ -1,9 +1,4 @@
-import {
-  useParams,
-  useLoaderData,
-  useParams,
-  useNavigate,
-} from 'react-router-dom';
+import { useLoaderData, useParams, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 const EditJobPage = ({ updateJobSubmit }) => {
